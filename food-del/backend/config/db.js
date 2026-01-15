@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 export const  connectDB = async () =>{
 
-    await mongoose.connect('mongodb+srv://NASREVOLUTION:<db_password>@cluster0.gv8gkoy.mongodb.net/food-del').then(()=>console.log("DB Connected"));
+    await mongoose.connect('mongodb+srv://NASREVOLUTION:nasrevo1234@cluster0.gv8gkoy.mongodb.net/food-del').then(()=>console.log("DB Connected"));
    
 }
 
